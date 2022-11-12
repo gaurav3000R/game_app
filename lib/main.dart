@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'Src/Screens/ForGuest/SplashScreen.dart';
-import 'Src/Screens/ForUser/HomeScreen.dart';
+import 'Src/Screens/ForGuest/LoginScreen.dart';
 
 void main() {
-  runApp(const SplashScreen());
+  runApp(const LoginScreen());
 }
 

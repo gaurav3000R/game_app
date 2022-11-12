@@ -14,10 +14,6 @@ class SplashScreen extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-          appBar: AppBar(
-        backgroundColor: Colors.black,
-        title: const Text('SplashScreen'),
-      ),
       body:Container(child:Center(child: Text('this is game for you') ,),)
         ),
     );
