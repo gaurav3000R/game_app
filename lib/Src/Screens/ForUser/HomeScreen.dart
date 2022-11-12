@@ -8,11 +8,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter first sDemo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Text('hiiii'),
+      home: Scaffold(
+          appBar: AppBar(
+        backgroundColor: Colors.black,
+        title: Text('home'),
+      )),
     );
   }
 }
