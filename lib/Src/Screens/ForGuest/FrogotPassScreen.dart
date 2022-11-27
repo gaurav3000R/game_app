@@ -7,17 +7,10 @@ class FrogotPassScreen extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Flutter first sDemo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: Scaffold(
+    return Scaffold(
           appBar: AppBar(
         backgroundColor: Colors.black,
-        title: Text('home'),
-      )),
-    );
+        title: Text('FrogotPassScreen'),
+    ),);
   }
 }
